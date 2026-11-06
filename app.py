@@ -13,7 +13,7 @@ app.layout = ddk.App(
         ddk.Header(
             [
                 ddk.Logo(src=app.get_asset_url("logo.png")),
-                ddk.Title("World Statistics 1106"),
+                ddk.Title("World Statistics Cummins"),
             ]
         ),
         ddk.ControlCard(
