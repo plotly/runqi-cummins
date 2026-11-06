@@ -23,6 +23,5 @@ jobs:
           DE_HOST: cs-k8s.plotly.host
           DE_USERNAME: ${{ secrets.DE_USERNAME }}
           DE_PASSWORD: ${{ secrets.DE_PASSWORD }}
-          GH_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           app_name: horizontal-controls
           de_client_version: '1.10.2'
